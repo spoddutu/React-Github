@@ -1,0 +1,24 @@
+{
+  "name": "githubui",
+  "homepage": "https://github.com/spoddutu/React-Github",
+  "authors": [
+    "spoddutu <santhosh.podduturi@gmail.com>"
+  ],
+  "description": "UI for Github",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.5.0",
+    "Materialize": "materialize#~0.97.5",
+    "font-awesome": "~4.5.0"
+  }
+}

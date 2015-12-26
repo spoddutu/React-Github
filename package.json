@@ -1,0 +1,40 @@
+{
+  "name": "githubui",
+  "version": "1.0.0",
+  "description": "UI for Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoddutu/React-Github.git"
+  },
+  "author": "Santhosh P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoddutu/React-Github/issues"
+  },
+  "homepage": "https://github.com/spoddutu/React-Github#readme",
+  "devDependencies": {
+    "alt": "^0.18.1",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-server": "^0.1.0",
+    "gulp-webserver": "^0.9.1",
+    "history": "^1.13.1",
+    "jquery": "^2.1.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.2",
+    "reactify": "^1.1.1",
+    "superagent": "^1.6.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
