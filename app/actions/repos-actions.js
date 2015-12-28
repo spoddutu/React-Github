@@ -1,5 +1,6 @@
+"use strict"
 var SuperAgent = require('superagent')
-var Alt = require('../alt-flux.js')
+var alt = require('../alt-flux.js')
 
 class ReposActions{
 
@@ -11,12 +12,12 @@ class ReposActions{
 				this.searchComplete(res)
 			}.bind(this))
 
-		this.dispatch();
+		return;
 	}
 
 	searchComplete(res){
-		this.dispatch(res.body.items)
+		return res.body.items
 	}
 }
 
-module.exports = Alt.createActions(ReposActions)
+module.exports = alt.createActions(ReposActions)

@@ -1,3 +1,4 @@
+"use strict"
 var Alt = require('../alt-flux.js')
 var RepoActions = require('../actions/repos-actions.js')
 
@@ -14,6 +15,7 @@ class RepoStore {
 	}
 
 	search(){
+		console.log("search is called...")
 		this.loading = true
 	}
 

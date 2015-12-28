@@ -42,6 +42,12 @@ module.exports = React.createClass({
   		}		
 	},
 
+	search: function(e){
+		e.preventDefault()
+		var searchText = this.refs.searchText.value
+		RepoActions.search(searchText)
+	},
+
 	render: function(){
 		return (
 		  	<div className="container">
